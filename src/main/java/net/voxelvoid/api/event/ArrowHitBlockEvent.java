@@ -1,4 +1,4 @@
-package com.gmail.stevenpcc.arrowhitblockevent;
+package net.voxelvoid.api.event;
 
 import org.bukkit.block.Block;
 import org.bukkit.entity.Arrow;
