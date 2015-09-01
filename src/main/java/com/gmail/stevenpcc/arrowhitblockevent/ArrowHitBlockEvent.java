@@ -16,15 +16,15 @@ public class ArrowHitBlockEvent extends BlockEvent {
         this.arrow = arrow;
     }
 
+    public static HandlerList getHandlerList() {
+        return handlers;
+    }
+
     public Arrow getArrow() {
         return arrow;
     }
 
     public HandlerList getHandlers() {
-        return handlers;
-    }
-
-    public static HandlerList getHandlerList() {
         return handlers;
     }
 
